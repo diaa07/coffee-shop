@@ -1,4 +1,37 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+.morring{
+    background-color: rgb(176, 142,114 );
+    height: 250px;
+}
+.morring .container{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 100px;
+    height: 100%;
+   align-items: center;
+}
+.morring .container .text{
+   width: 30%;
+}
+.morring .container .text h2{
+color: white;
+margin-bottom: 10px;
+font-size: 35px;
+}
+.morring .container .text .con-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.morring .container .text p {
+    color: rgba(255, 255, 255, 0.666) ;
+}
+
+
+.morring .container  img {
+    width: 150px;
+    transform: rotate(90deg);}
